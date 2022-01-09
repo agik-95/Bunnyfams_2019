@@ -1,0 +1,563 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+.gmbar {
+    position: absolute;
+    top: 75%;
+    left: 90%;
+    bottom: 85%;
+
+}
+
+.gmbr {
+
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("image/header3.jpg");
+    background-color: whitesmoke;
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+}
+/*
+nav { 
+	top: 0%;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-radius: 10px;
+} 
+*/
+
+nav li {  
+display: inline-block;
+position: relative;
+float: left; 
+top: -20px;
+background-color: ;  
+margin-left: ;
+margin-right: 25px; 
+
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.nav-bar{ 
+  position: fixed;
+  height: 80px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: black;
+  width: 100%; 
+border-radius: 10px;
+}
+
+
+.btn-resp{
+  display: none;
+  position: absolute;
+  top: 0%;
+	right: 20px; 
+	padding: 25px 0 25px 0; 
+	
+}
+.btn-resp:hover > span{
+  background: darkcyan;
+}
+.btn-resp span{
+  display: block;
+  margin: 6px;
+  width: 40px;
+  height: 3px;
+  background: #333;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .nav-bar{
+    overflow: visible;
+  }
+  .header{ 
+	 position: relative; 
+    width: 100%; 
+	margin-left: -19%;
+    top: 80px;
+    background: black;
+    overflow: hidden;
+    max-height: 0; 
+	 border-radius: 15px;
+	}
+  .header a{
+    display: block; 
+	font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    margin: 0; 
+	
+  } 
+	
+	
+  .btn-resp{
+    display: block;
+    cursor: pointer; 
+  } 
+	
+
+	.show{
+    max-height: 500px;
+  }
+	
+	
+	.button { 
+	width : 100%;
+	margin-left: 65px;
+	}
+	
+	.modal-content { 
+	width: 100%;
+	left: 0%;
+	 
+	}  
+	
+	
+.modal-content, #myImg { 
+left: 0%;
+
+}
+	
+}
+
+
+
+
+.header{
+  position: absolute;
+  left: 15%; 
+  
+}
+.header a{
+  color: white;
+  text-decoration: none;
+	padding: 10px 30px;
+  margin-left: 30px;
+  margin-right: 0px;
+  transition: color 0.3s; 
+}
+.header a:hover{
+  color: darkcyan;   
+	 background-color: white;
+border-radius:20px; 
+
+}
+
+
+
+
+
+
+ul {
+    /*position: absolute;*/
+    /*float: right;  */
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 25px 150px 25px 100px;
+
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.25s ease;
+    border-radius: 25px;
+}
+
+.nav-link:hover {
+    background-color: whitesmoke;
+    color: darkcyan;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+a {
+
+}
+
+.main {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #;
+
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.title h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Century Gothic;
+
+}
+
+
+
+
+
+.button {
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+} 
+
+
+
+.btn {
+
+    text-decoration: none;
+    color: black;
+    padding: 15px 50px;
+    border: 2px solid;
+    transition: 0.25s ease;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: darkcyan;
+}
+
+/*-------------------------------------- This is Body Website----------------------------------*/
+.main-body {
+    background-color: ghostwhite;
+    padding: 0%;
+    border-radius: 5px;
+}
+
+.styleb { 
+padding: 100px 0 100px 0px; 
+background-color: khaki;
+font-weight: bold;
+
+	
+	
+}
+
+.styleb h3 {  
+
+font-family: Century Gothic;
+font-size: 50px;
+text-align: center;
+
+
+} 
+
+
+
+
+.cont-event { 
+padding: 50px 0 50px 0; 
+background-color: black; 
+border-radius: 20px;
+}
+
+.cont-event h2 { 
+text-align: center;  
+font-weight: bolder; 
+color: white;
+} 
+/*==========================================================Modal IMAGES==============================================================*/
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative; 
+  align-content: center; 
+  left: 0%;
+border-radius: 20px;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  
+} 
+
+.modal-content, #myImg { 
+left: 32%;
+
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+/*==========================================================Modal IMAGES==============================================================*/
+.cont-eventnews { 
+padding: 50px 0 275px 0; 
+background-color: whitesmoke; 
+border-radius: 20px;
+
+}
+
+
+
+.cont-eventnews h2 { 
+text-align: center;  
+font-weight: bolder; 
+color: black;
+} 
+
+
+
+.cont-about { 
+padding: 50px 0 50px 0; 
+background-color: antiquewhite;
+
+} 
+
+.cont-about h2 { 
+text-align: center; 
+font-weight: bolder;
+
+} 
+
+.cont-about p {   
+position: relative; 
+
+text-align: right;
+
+} 
+
+.cont-contacts h2 { 
+text-align: center; 
+font-weight: bolder;
+} 
+
+.cont-contacts { 
+padding: 50px 0 50px 0; 
+background-color: antiquewhite;
+
+}  
+
+.cont-contacts p { 
+text-align: center;
+
+} 
+
+
+/*--------------------------------------------------Merchandise------------------------------------------------*/ 
+.grid-container { 
+	
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: ;
+  padding: 10px; 
+border-radius: 20px;
+
+}
+.grid-item {
+  background-color: whitesmoke;
+  border: 0.25px solid rgba(0, 0, 0, 0.8);
+  padding: 80px;
+  font-size: 30px;
+  text-align: center; 
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+} 
+
+/*--------------------------------------------------END CARD------------------------------------------------*/ 
+
+/*------------------------------------------------- END -----------------------------------------------*/
+
+/* This is Footer */ 
+
+
+
+.footer-main {
+    background-color: black;
+    text-align: center;
+}
+
+.social-icons {
+    background-color: black;
+}
+
+.ico {
+
+}
+
+.copyright {
+    text-decoration: none;
+    color: white;
+    margin: 10px 0 20px 0;
+
+}
+
+p.text-copyright {
+    text-align: center;
+    background-color: black;
+    /*position: absolute; */
+    /*top: 110%; 
+    left: 50%; 
+    bottom: 20%;
+    transform: translate(-50%,-50%); */
+}
+
+.footer-links {
+    position: absolute;
+    background-blend-mode: color-burn;
+    border-radius: 10px;
+
+}
+
+
+.icons {
+    font-size: 35px;
+    text-align: left;
+}
+
+p.icons:hover {
+    padding: 50px;
+}
+
+.footer-link {
+    padding-top: 0px;
+}
+
+.footer-link:hover {
+    background-color: whitesmoke;
+    color: darkcyan;
+    padding-top: 40px;
+}
+
+

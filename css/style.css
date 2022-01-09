@@ -1,0 +1,105 @@
+*{ 
+margin: 0; 
+padding: 0; 
+font-family: Century Gothic; 
+}
+
+header{ 
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("image/bg.jpg"); 
+height: 100vh;
+background-size: cover; 
+background-position: center; 
+}
+
+
+ul { 
+position: absolute;
+float: right;  
+list-style-type: none; 	
+margin-top: 25px; 
+padding: 25px 150px 75px 100px;
+
+} 
+
+ul li { 
+display: inline-block;  
+
+} 
+
+ul li a{ 
+text-decoration:none; 
+color: #fff;  
+padding: 5px 20px; 	
+border: 1px solid transparent ; 
+transition: 0.5s ease; 
+border-radius: 25px;	
+}
+
+ul li a:hover { 
+background-color: #fff; 
+color: #000;
+} 
+
+ul li.active a{ 
+background-color: #fff; 
+color:#000; 
+}
+a{ 
+
+} 
+.main { 
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #;
+  
+}
+.title { 
+position: absolute; 
+top: 50%; 
+left: 50%; 
+transform: translate(-50%,-50%); 
+
+} 
+
+.title h1{ 
+color: #fff; 
+font-size: 50px; 
+font-family: Century Gothic; 
+} 
+
+.button {  
+position: absolute; 
+top: 60%; 
+left: 50%; 
+bottom: 75%;
+transform: translate(-50%,-50%); 
+} 
+
+.btn {  
+asd
+text-decoration:none; 
+color: #fff;  
+padding: 15px 50px; 	
+border: 1px solid  ; 
+transition: 0.5s ease; 
+border-radius: 25px;	
+} 
+
+.btn:hover { 
+background-color: fff; 
+color: #000; 
+} 
+
+/* This is Body Website*/ 
+.container {  
+background-color: whitesmoke; 
+padding: 25%;
+} 
+
+/* This is Footer */ 
+.mainf 
+{ 
+background-color:  
+}

@@ -1,0 +1,133 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <link rel="stylesheet" href="css/slicknav.css"> 
+    <link rel="stylesheet" href="css/owl.theme.css"> 
+	<link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.min.js"></script>
+    <script src="image.js"></script>  
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	  
+	
+	
+</head>
+<body>
+
+	
+
+<nav>	
+<ul class="main-header"> 
+<!--
+<li><a href="#" class="nav-link">Home</a></li> 
+<li> <a href="#" class="nav-link">Events</a></li>	
+<li> <a href="#" class="nav-link">About</a></li> 
+<li> <a href="#" class="nav-link">Contacts</a></li> 
+<li> <a href="#" class="nav-link">Help</a></li>
+</ul> --> 
+</nav>	
+
+
+<div class="container-bigger">
+<div class="container"><br>  
+	<h2>Registrasi</h2><br>
+    <form name="submit-to-google-sheet" id="frmInput" class="box" action="" method="post" >
+		
+        <input  type="text" name="EARNO_"	id="earno" value="" placeholder="Ear No" required="required"><br>
+        <input  type="text" name="EXHIBITOR_" id="exhibitor" value="" placeholder="Exhibitor" required="required"/><br>
+        <input  type="text" name="PHONENUMBER_"	id="phonenumber" value="" placeholder="Phone Number" required="required"/><br>
+        <input  type="text" name="CITY_"	id="city" value="" placeholder="City" required="required"/><br>
+        <input  type="text" name="BREED_"	id="breed" value="" placeholder="Breed" required="required"/><br>
+        <input  type="text" name="VARIETY_"	id="variety" value="" placeholder="Variety" required="required"/>
+        <a>Sex</a><br>
+		<input  type="text" name="SEX_" id="buck" value="" placeholder="Buck, Doe"/>
+        <a>Class</a><br>
+		<input  type="text" name="CLASS_" id="prejr" value="" placeholder="PreJunior,Junior(Jr),Intermediate(6/8),SeniorSr"/>
+		<br><br>
+        
+		<!--
+		<a>Fryer</a><br> 
+		<input  type="text" id="buck" value="" placeholder="Buck"/><br>
+        <input  type="text" id="doe" value="" placeholder="Doe"/><br> 
+		<a>Meat Pen</a><br>
+		<input  type="text" id="sr" value="" placeholder="Sr."/><br>
+        <input  type="text" id="enam" value="" placeholder="6/8"/><br>
+		<a>Fur</a><br>
+		<input  type="text" id="jr" value="" placeholder="Buck"/><br>
+        <input  type="text" id="prejr" value="" placeholder="Pre Jr"/><br><br>  -->
+		
+		<input  type="submit" id="button" value="Submit"/><br><br><br>
+								 
+		
+		
+	</form>    
+	
+	
+	 <script src="scripts/sheets.js">
+   
+  </script>
+	
+	<div class="asu">
+	<a type=""href="uploads" class="asu" target="_blank">Login Admin</a> 
+	</div>
+	
+	</div> 
+</div>  
+
+	
+		
+	
+	<form action="post.php" method="post" enctype="multipart/form-data" id="frm">
+        <input type="hidden" name="earnosd" id="earno_post">
+        <input type="hidden" name="exhibitorsd" id="exhibitor_post">
+        <input type="hidden" name="phonenumbersd" id="phonenumber_post">
+		 <input type="hidden" name="citysd" id="city_post">
+		 <input type="hidden" name="breedsd" id="breed_post">
+		 <input type="hidden" name="varietysd" id="variety_post">
+		 <input type="hidden" name="bucksd" id="buck_post">
+		 <input type="hidden" name="prejrsd" id="prejr_post">
+		
+        <input type="hidden" name="pdf" id="pdf">
+    </form>
+
+
+
+    <script src="scripts/scripts.js">
+      
+		
+		
+		
+		
+    </script>
+</body> 
+	
+	
+	
+<footer> 
+   
+	<div class="footer-main">
+       
+          <!-- Footer Links -->
+
+                  <ul class="ico">
+                    <!--
+					  <li class="icons"><a class="footer-link" href="#"><i class="zmdi zmdi-facebook"><p>Facebook</p></i></a></li>
+                    
+					  <li class="icons"><a class="footer-link" href="#"><i class="zmdi zmdi-instagram"><p>Instagram</p></i></a></li>
+                    
+					  <li class="icons"><a class="footer-link" href="#"><i class="zmdi zmdi-google-plus"><p>Google+</p></i></a></li>
+                   
+                    <li class="linkedin"><a href="#"><i class=""></i></a></li>
+                    <li class="dribbble"><a href="#"><i class=""></i></a></li>
+                -->  
+				</ul>
+            </div>
+			
+            <div class="copyright">	
+              <p class="text-copyright"> <a rel="nofollow" href="">Agieee</a></p>
+            </div>
+
+	</footer>	
+
+	
+</html>

@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+body { 
+margin: 0; 
+padding: 0; 
+background-color: whitesmoke;
+
+}
+
+
+/*-------------------HEADER BOYS--------------*/ 
+/*
+.main-header {
+     position: fixed;
+	left: 30%;
+   
+    padding: 15px;
+	
+} 
+
+ul.main-header { 
+position: fixed;
+} 
+
+ul {
+    /*position: absolute;
+    /*float: right;  
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 25px 150px 25px 100px;
+
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+ul.main-header li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.25s ease;
+    border-radius: 25px;
+	font-size: 15px; 
+	font-weight: normal;
+}
+
+.nav-link:hover {
+    background-color: whitesmoke;
+    color: darkcyan;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+
+nav {
+   	  position: -webkit-sticky;
+  position: sticky;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-radius: 5px;
+
+} 
+*/
+
+
+
+
+nav { 
+	top: 0%;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-radius: 10px;
+} 
+
+nav li {  
+display: inline-block;
+position: relative;
+float: left; 
+top: -20px;
+background-color: ;  
+margin-left: ;
+margin-right: 70px;
+} 
+
+
+
+ul {
+    /*position: absolute;*/
+    /*float: right;  */
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 25px 150px 25px 100px;
+
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.25s ease;
+    order-radius: 25px; 
+	
+}
+
+.nav-link:hover {
+    background-color: whitesmoke;
+    color: darkcyan;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+/*--------------END HEADER--------------------------*/
+
+
+.container { 
+
+width :391px; 
+height: 650px;
+background: #d2d7d3; 
+background-image: linear-gradient(to top right, #f2f2f2, white);
+color: black; 
+top: 80%;  
+left: 50%; 
+position: relative; 
+transform: translate(-50%,-50%);
+box-sizing: border-box;	
+border-radius: 10px;  
+box-shadow: 3px 3px 3px darkcyan;
+
+}   
+
+
+.container-bigger{ 
+position: ;
+width: 100%; 
+height: 100%; 
+margin-bottom: 350px;
+background: whitesmoke;
+
+} 
+
+.btn-admin{ 
+
+}
+
+h2 { 
+	font-family: Century Gothic;
+	margin:0; 
+	padding: 10px 0 10px; 
+	text-align: center; 
+	font-size: 22px; 
+	color: black;
+} 
+
+a {    
+font-weight: 750;
+font-family: Century Gothic;
+color: black; 
+text-align: center;
+font-size: 12px; 
+margin-bottom: 20px;
+border-radius:7px;  
+margin-left: 20%; 
+
+} 
+
+.asu { 
+ text-align: left;
+
+} 
+
+.asu:hover {  
+transition-delay: 0.50s ease;
+color:darkcyan; 
+
+}
+
+.border {
+border-style: dotted; 
+border-width: thick;
+border-width: 0 0 5px 0; 
+color: darkcyan; 
+
+}
+
+.box border
+
+.box{ 
+ border-radius: 5px;
+
+  padding: 20px;
+
+} 
+
+.box p{ 
+margin: 0; 
+padding: 0; 
+font-weight: bold;
+
+}
+
+.box input { 
+width: 70%; 
+margin-bottom: 12px;
+border-radius:10px;  
+margin-left: 15%;
+}  
+
+.box input[type="text"] 
+{ 	
+	font-size: 12px;
+	font-family: Century Gothic;
+    border: none; 
+	border-bottom: 1px solid #fff; 
+	outline: none; 
+	height: 35px; 
+	color: black;   
+	
+} 
+
+.box input [type="placeholder"] { 
+text-align: center; 
+position: center;  
+
+
+}  
+/*
+.box input[type="submit"]
+{  
+position: absolute; 
+left: 20%;	
+height: 30px;  
+width: 90px;
+border: none; 
+outlin:none; 	
+background: #FFFFFF; 
+color: aquamarine;  
+ transition: 0.25s ease;
+}
+*/ 
+
+
+.btn-admin input[type="submit"] 
+{ 		
+	position: absolute; 
+	left: 20%;	
+	width: 100px; 
+	height: 30px;
+	background-color: transparent;
+	text-decoration: none;
+    color: #000000;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.25s ease;
+    border-radius: 25px;
+
+}
+
+.btn-admin input[type="submit"]:hover 
+{ 
+	 transition: 0.50s ease;
+    background-color: whitesmoke;
+    color: darkcyan;
+} 
+
+
+.box input[type="submit"] 
+{ 
+	position: absolute; 
+	left: 20%;	
+	width: 100px; 
+	height: 30px;
+	background-color: transparent;
+	text-decoration: none;
+    color: #000000;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.25s ease;
+    border-radius: 25px;
+} 
+
+.box input[type="submit"]:hover 
+{ 
+	 transition: 0.50s ease;
+    background-color: whitesmoke;
+    color: darkcyan;
+} 
+
+
+.box a { 
+text-align: center;
+
+} 
+
+
+
+/* ------------------------------------------This is Footer -----------------------------------------*/
+footer { 
+background-color: black;
+
+}
+.footer-main {
+    background-color: black;
+    text-align: center;
+	top: 50%; 
+	margin-bottom: 150px;
+}
+
+.social-icons {
+    background-color: black;
+}
+
+.ico {
+
+}
+
+.copyright {
+    text-decoration: none;
+    color: white;
+	
+}
+
+p.text-copyright {
+    text-align: center;
+    background-color: black;
+    /*position: absolute; */
+    /*top: 110%; 
+    left: 50%; 
+    bottom: 20%;
+    transform: translate(-50%,-50%); */
+}
+
+.footer-links {
+    position: absolute;
+    background-blend-mode: color-burn;
+    border-radius: 10px;
+	
+}
+
+
+.icons {
+    font-size: 35px;
+    text-align: left;
+}
+
+p.icons:hover {
+    padding: 50px;
+}
+
+.footer-link {
+    padding-top: 0px;
+}
+
+.footer-link:hover {
+    background-color: black;
+    color: darkcyan;
+    padding-top: 40px;
+}
+
+/*---------END OF FOOTER----------------------------------------------------------*/
